@@ -61,7 +61,6 @@ namespace FAPM_server
 
         private void button9_Click(object sender, EventArgs e)
         {
-            label1.Text = ("Installing wordpress");
             using (ArchiveFile archiveFile = new ArchiveFile("C:/Users/Public/http server/WP/wordpress.zip"))
             {
                 archiveFile.Extract("C:/Users/Public/http server/Apache24/htdocs"); // extract all
