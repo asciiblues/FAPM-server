@@ -79,7 +79,7 @@ namespace FAPM_server
 
         private void Form1_Load(object sender, EventArgs e)
         {
-            label1.Text = ("OK");
+            label1.Text = (label1.Text + " OK");
         }
 
         private void linkLabel2_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
